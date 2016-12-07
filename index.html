@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arjun's Resume</title>
+        <link rel="stylesheet" href="main.css">
+        
+        <script src="move_cursor.js"></script>
+        <script type="text/javascript">
+            function hide() {
+                for( i=2; i<=5; i++) {
+                    document.getElementById(i).style.visibility = "hidden";
+                }
+            }
+        </script>
+    </head>
+    <body onload="hide()">
+        <h1 align="center" onmouseover="move_cursor(1)">
+            NAME='<selectable>ARJUN SRIVASTAV</selectable>'<cursor id="1">█</cursor>
+        </h1>
+        
+        <h2 onmouseover="move_cursor(2)">
+            echo $EDUCATION<cursor id="2">█</cursor>
+        </h2>
+        
+        <p>
+            case "$EDUCATION" in<br/>
+            <a class="indent">high_school)<br/></a>
+            <a class="dbindent"><comment># <selectable>John P Stevens High School</selectable></comment></a><br/>
+            <a class="indent">start-end_date)</a><br/>
+            <a class="dbindent"><comment># <selectable>September 2013 - Present</selectable></comment></a><br/>
+            <a class="indent">location)</a><br/>
+            <a class="dbindent"><comment># <selectable>855 Grove Avenue Edison, NJ</selectable></comment></a><br/>
+            <a class="indent">grade_level)</a><br/>
+            <a class="dbindent"><comment># <selectable>12th grade</selectable></comment></a><br/>
+            esac
+        </p>
+        
+        <h2 onmouseover="move_cursor(3)">
+            function work_experience() {<cursor id="3">█</cursor>
+        </h2>
+        
+        <p>
+            <a class="indent">var program_title = '<selectable>Monmouth University Summer Research Program</selectable>';<br/></a>
+            <a class="indent">var position_title = '<selectable>Database Maintainer and Software Programming Subteam</selectable>';<br/></a>
+            <a class="indent">var start-end_date = '<selectable>May 2015 - July 2015</selectable>';<br/></a>
+            <a class="indent">var location = '<selectable>400 Cedar Ave, West Long Branch, NJ 07764</selectable>';<br/></a>
+            <a class="indent">var hoursPerWeek = 15;</a><a class="dbindent">var totalHours = 90;</a>
+        </p>
+        
+        <h2 onmouseover="move_cursor(4)">
+            }<br/><br/>public class Volunteer_Activities {<cursor id="4">█</cursor>
+        </h2>
+        
+        <p>
+            <a class="indent">public activityOne() {</a><br/>
+            <a class="dbindent">String program_title = "<selectable>John F Kennedy Medical Center</selectable> Volunteer";</a><br/>
+            <a class="dbindent">String start-end_date = "<selectable>September 2014 - May 2015</selectable>";</a><br/>
+            <a class="dbindent">String location = "<selectable>65 James St, Edison, NJ 08820</selectable>";</a><br/>
+            <a class="dbindent">int hoursPerWeek = 3;</a><a class="indent">int totalHours = 225;</a><br/>
+            <a class="indent">}</a><br/><br/>
+            
+            <a class="indent">public activityTwo() {</a><br/>
+            <a class="dbindent">String program_title = "<selectable>Thomas Edison Center at Menlo Park</selectable> Volunteer";</a><br/>
+            <a class="dbindent">String start-end_date = "<selectable>September 2014 - December 2015</selectable>";</a><br/>
+            <a class="dbindent">String location = "<selectable>Art Deco Edison Memorial Tower, 37 Christie St, Edison, NJ 08820</selectable>";</a><br/>
+            <a class="dbindent">int hoursPerWeek = 2;</a><a class="indent">int totalHours = 25;</a><br/>
+            <a class="indent">}</a>
+        </p>
+        
+        <h2 onmouseover="move_cursor(5)">
+            }<br/><br/>def extracurricular("activities"):<cursor id="5">█</cursor>
+        </h2>
+        
+        <p>
+            <a class="indent"><comment># Extracurricular 1</comment></a><br/>
+            <a class="indent">display_ClubTitle( "<selectable>Future Business Leaders of America</selectable>" )</a><br/>
+            <a class="indent">display_GradesParticipated( <selectable>11, 12</selectable> )</a><br/>
+            <a class="indent">display_StartEndDate( "<selectable>December 2015 - Present</selectable>" )</a><br/>
+            <a class="indent">hoursPerWeek = 5</a><br/>
+            <a class="indent">totalHours = 60</a>
+            <br/><br/>
+            <a class="indent"><comment># Extracurricular 2</comment></a><br/>
+            <a class="indent">display_ClubTitle( "<selectable>Warhawks Robotics FIRST Team 2554</selectable>" )</a><br/>
+            <a class="indent">display_GradesParticipated( <selectable>10, 11, 12</selectable> )</a><br/>
+            <a class="indent">display_StartEndDate( "<selectable>November 2015 - Present</selectable> )</a><br/>
+            <a class="indent">hoursPerWeek = 9</a><br/>
+            <a class="indent">totalHours = 315</a><br/>
+        </p>
+    </body>
+</html>

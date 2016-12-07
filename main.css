@@ -1,0 +1,60 @@
+/* SIMPLE PAGE ELEMENTS */
+html {
+    background-color: black;
+}
+
+body {
+    color: #00C82B;
+    font-size: 150%;
+    font-family: monospace;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge*/
+}
+
+h1 {
+    font-family: 'Courier New';
+}
+
+/* SPECIALS */
+.indent {
+    padding-left: 1.8em;
+}
+.dbindent {
+    padding-left: 3.6em;
+}
+comment {
+    font-style: italic;
+    color: grey;
+}
+
+/* HIGHLIGHT COLOR */
+::selection {
+    background: blue;
+}
+
+::-moz-selection {
+    background: blue;
+}
+
+/* BLINK ANIMATION */
+cursor {
+  animation: blinker 1.2s infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+/* SELECTABLE ELEMENTS */
+selectable {
+  -webkit-touch-callout: all; /* iOS Safari */
+    -webkit-user-select: all; /* Chrome/Safari/Opera */
+     -khtml-user-select: all; /* Konqueror */
+       -moz-user-select: all; /* Firefox */
+        -ms-user-select: all; /* Internet Explorer/Edge */
+            user-select: all; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
