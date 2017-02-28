@@ -1,7 +1,7 @@
 function move_cursor(l) {
     //but why?
     "use strict";
-    var noOfHeaders = 5;
+    var noOfHeaders = 6;
     
     for(i=1 ; i<=noOfHeaders; i++) {
         document.getElementById(i).style.visibility = "hidden";
